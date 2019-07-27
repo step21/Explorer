@@ -3,33 +3,33 @@
     "explorer": "Explorer",
     "dashboard": "Dashboard",
     "leaderboard": "Leaderboard",
-    "profile": "Profile"
+    "profile": "Profil"
   },
   "actions": {
-    "load_more": "Load more",
-    "view_all": "View all",
-    "accept": "Accept",
-    "reject": "Reject",
+    "load_more": "Mehr laden",
+    "view_all": "Alles anzeigen",
+    "accept": "Annehmen",
+    "reject": "Ablehnen",
     "filter": "Filter",
     "ok": "OK",
     "rate_fulfiller": "Rate fulfiller",
     "rate_issuer": "Rate issuer",
-    "activate": "Activate",
-    "de_activate": "Deactivate",
-    "re_activate": "Re-Activate",
-    "cancel": "Cancel",
+    "activate": "Aktivieren",
+    "de_activate": "Deaktivieren",
+    "re_activate": "Reaktivieren",
+    "cancel": "Abbrechen",
     "contribute": "Contribute",
     "contribute_issuer": "Increase Balance",
-    "edit_bounty": "Edit Bounty",
-    "submit": "Submit",
+    "edit_bounty": "Bounty Ändern",
+    "submit": "Abschicken",
     "extend_deadline": "Extend Deadline",
     "increase_payout": "Increase Payout",
     "transfer_ownership": "Transfer Ownership",
     "logout": "Logout",
-    "close": "Close",
-    "reset": "Reset",
-    "sort": "Sort",
-    "continue": "Continue",
+    "close": "Schließen",
+    "reset": "Zurücksetzen",
+    "sort": "Sortieren",
+    "continue": "Weiter",
     "dashboard": "Go to Dashboard",
     "create_bounty": "Create New Bounty",
     "profile": "Profile",
@@ -43,36 +43,36 @@
   },
   "sections": {
     "activity": {
-      "title": "My Activity",
+      "title": "Meine Aktivitäten",
       "zero_state": {
-        "title": "You have no activity yet",
+        "title": "Sie haben noch keine Aktivitäten",
         "description":
-          "Once you start using the platform, your activity will show up here."
+          "Sobald sie die Platform benutzen, werden ihre Aktivitäten hier angezeigt."
       }
     },
     "bounties": {
       "title": "My Bounties",
       "tabs": {
-        "active": "Active",
-        "drafts": "Draft"
+        "active": "Aktiv",
+        "drafts": "Entwurf"
       },
       "zero_state": {
         "title": "You have no {tab} bounties",
         "description":
           "It looks like you don't have any {tab} bounties at the moment. Enter a title for a new bounty here to get started creating one!",
         "actions": {
-          "new_bounty": "Create new bounty"
+          "new_bounty": "Neue Belohnung erstellen"
         }
       }
     },
     "bounty": {
       "zero_state": {
-        "title": "Could not find that bounty",
+        "title": "Konnte diese Belohnung nicht finden",
         "description": "Try refreshing, or make sure your url is correct"
       },
       "meta": {
-        "input": "Private",
-        "label": "bounty",
+        "input": "Privat",
+        "label": "belohnung",
         "tooltip":
           "Private bounties require that users apply to fulfill the bounty. Once you are approved by the issuer, you may submit a fulfillment for this bounty.",
         "revisions": "{count} revisions"
@@ -92,15 +92,15 @@
           "review_placeholder": "Enter review..."
         },
         "new_comment": {
-          "placeholder": "Write a comment..",
-          "action": "Post comment",
-          "login_action": "Sign in to post comment"
+          "placeholder": "Schreibe einen Kommentar..",
+          "action": "Kommentieren",
+          "login_action": "Anmelden um zu Kommentieren"
         },
         "applicant_card": {
           "declined_message":
             "Your declined application status is only visible to you",
           "zero_state": {
-            "title": "There are 0 applicants",
+            "title": "Es gibt 0 Bewerber",
             "description": "Applicants to this bounty will appear here."
           }
         },
@@ -946,20 +946,20 @@
     "url": "Invalid URL"
   },
   "common": {
-    "description": "Description",
-    "expired": "expired",
-    "remaining": "remaining",
-    "difficulty": "difficulty",
-    "expected": "expected",
-    "and": "and",
-    "payout": "Payout"
+    "description": "Beschreibung",
+    "expired": "abgelaufen",
+    "remaining": "übrig",
+    "difficulty": "Schwierigkeit",
+    "expected": "erwartet",
+    "and": "und",
+    "payout": "Auszahlung"
   },
   "stages": {
-    "draft": "Draft",
-    "active": "Active",
-    "dead": "Dead",
+    "draft": "Entwurf",
+    "active": "Aktiv",
+    "dead": "tot",
     "completed": "Completed",
-    "expired": "Expired"
+    "expired": "Abgelaufen"
   },
   "formats": {
     "amount": "{value, number}",
